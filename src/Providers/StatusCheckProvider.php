@@ -48,7 +48,7 @@ class StatusCheckProvider extends PaytmWalletProvider{
 	}
 
 	public function response(){
-		return $this->response;
+		return (object)$this->response;
 	}
 
 
